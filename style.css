@@ -500,11 +500,11 @@ h3.main-h{
         width: 20%;
     }
     .works-inner-items {
-        width: 1200px;
+        width: 900px;
     }
     .works-carousel,
     .works-inner-item {
-        width: 400px;
+        width: 300px;
     }
     .works-inner-item {
         grid-template-columns: 1fr;
@@ -552,5 +552,9 @@ h3.main-h{
     .works,
     .about{
         height: 120vh!important;
+    }
+    
+    .main-wrapper::-webkit-scrollbar {
+        width: 1rem;
     }
 }
