@@ -535,3 +535,22 @@ h3.main-h{
         width: 100%;
     }
 }
+@media(max-width:600px){
+    h1.main-h {
+        font-size: 3rem;
+    }
+
+    h2.main-h,
+    h3.main-h {
+        font-size: 1.8rem;
+    }
+    .main-wrapper section {
+        padding: 6rem 0;
+        width: 95%;
+    }
+
+    .works,
+    .about{
+        height: 120vh!important;
+    }
+}
